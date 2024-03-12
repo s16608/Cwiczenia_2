@@ -11,6 +11,19 @@ class Program
         Console.WriteLine("Modyfikacja 2");
         
         Console.WriteLine("Modyfikacja 3");
-            
+
+        int[] numbers = { 10, 20, 30, 40, 50 };
+
+        static double CalculateAverage(int[] array)
+        {
+            int sum = 0;
+            foreach (int num in array)
+            {
+                sum += num;
+            }
+
+            return (double)(sum / array.Length);
+        }
+
     }
 }
