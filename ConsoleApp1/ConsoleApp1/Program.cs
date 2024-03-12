@@ -16,13 +16,13 @@ class Program
 
         static double CalculateAverageFromArray(int[] array)
         {
-            int sum = 0;
+            int total = 0;
             foreach (int num in array)
             {
-                sum += num;
+                total += num;
             }
 
-            return (double)sum/array.Length;
+            return (double)total/array.Length;
         }
 
         int[] numbers2 = { 3, 4, 12, 212, 4, 2, 8, 232 };
