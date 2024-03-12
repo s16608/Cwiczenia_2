@@ -17,9 +17,9 @@ class Program
         static double CalculateAverageFromArray(int[] array)
         {
             int sum = 0;
-            foreach (int num in array)
+            foreach (int number in array)
             {
-                sum += num;
+                sum += number;
             }
 
             return (double)sum/array.Length;
