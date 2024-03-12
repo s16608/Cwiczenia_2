@@ -24,6 +24,8 @@ class Program
 
             return (double)sum/array.Length;
         }
+
+        int[] numbers2 = { 3, 4, 12, 212, 4, 2, 8, 232 };
         
         static int FindMax(int[] array)
         {
