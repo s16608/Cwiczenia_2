@@ -17,11 +17,10 @@ class Program
         static double CalculateAverageFromArray(int[] array)
         {
             int sum = 0;
-            foreach (int number in array)
+            foreach (int num in array)
             {
-                sum += number;
+                sum += num;
             }
-
             return (double)sum/array.Length;
         }
 
