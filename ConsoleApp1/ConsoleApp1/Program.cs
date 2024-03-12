@@ -14,7 +14,7 @@ class Program
 
         int[] numbers = { 10, 20, 30, 40, 50 };
 
-        static double CalculateAverage(int[] array)
+        static double CalculateAverageFromArray(int[] array)
         {
             int sum = 0;
             foreach (int num in array)
@@ -22,8 +22,10 @@ class Program
                 sum += num;
             }
 
-            return (double)(sum / array.Length);
+            return (double)sum/array.Length;
         }
+        
+     
 
     }
 }
