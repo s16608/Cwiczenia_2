@@ -25,7 +25,17 @@ class Program
             return (double)sum/array.Length;
         }
         
-     
-
+        static int FindMax(int[] array)
+        {
+            int max = array[0];
+            foreach (int num in array)
+            {
+                if (num > max)
+                {
+                    max = num;
+                }
+            }
+            return max;
+        }
     }
 }
